@@ -513,7 +513,7 @@ class ChatBot {
                     <div class="chatbot-header">
                         <div class="chatbot-title">
                             <span class="title-icon">🤖</span>
-                            DNDs Assistant
+                            JRs Assistant
                         </div>
                         <button class="chatbot-close" id="chatbotClose">
                             <i class="fas fa-times"></i>
@@ -740,7 +740,7 @@ class ChatBot {
         if (recentHistory.length === 0) {
             // If no history, show welcome message
             setTimeout(() => {
-                this.addMessage('Hello! I\'m DNDs Assistant. Do you have any questions?', 'ai');
+                this.addMessage('Hello! I\'m JRs Assistant. Do you have any questions?', 'ai');
             }, 1000);
         }
     }
